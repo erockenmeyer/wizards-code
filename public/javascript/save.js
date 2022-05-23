@@ -44,11 +44,11 @@ const saveFetch = (character) => {
     }
 }
 
-const refreshPage = (event) => {
-    setInterval(function(){
-        document.location.reload();
-    }, 200);
-}
+// const refreshPage = (event) => {
+//     setInterval(function(){
+//         document.location.reload();
+//     }, 200);
+// }
 
 // event listener
 saveCharBtn.addEventListener("click", saveBtnHandler);
