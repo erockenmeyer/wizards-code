@@ -17,9 +17,10 @@
 - Users will have to login to access stored characters
 - Users will have a great time imagining what adventures await their newly created characters
 
-## Collaboraters 
+## Screenshot
+![dnd-char-roll](https://user-images.githubusercontent.com/94813971/169737201-57d9d89d-c8e1-430a-b68f-29aa57efc34b.png)
 
-# Team Wizards of The Code
+## Team Wizards of The Code
 - Alexander Lu
 - Stephen Fike
 - Sarah Cylkowski
