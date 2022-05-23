@@ -29,7 +29,7 @@
 
 
 ## Technologies Used
--   * bcrypt
+   * bcrypt
     * dotenv
     * express
     *  express-handlebars
