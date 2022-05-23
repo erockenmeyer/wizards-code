@@ -52,4 +52,4 @@ const saveFetch = (character) => {
 
 // event listener
 saveCharBtn.addEventListener("click", saveBtnHandler);
-saveCharBtn.addEventListener("click", refreshPage);
+// saveCharBtn.addEventListener("click", refreshPage);

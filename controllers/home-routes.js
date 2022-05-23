@@ -59,7 +59,8 @@ router.get("/character/:id", (req, res) => {
     Character.findOne({
         where: {
             // use the ID from the session
-            user_id: req.session.user_id
+            user_id: req.session.user_id,
+            id: req.params.id
         },
         // finding all characters
         attributes: ["id", "strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma", "class", "name", "str", "dex", "con", "int", "wis", "cha"
