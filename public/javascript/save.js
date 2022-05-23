@@ -36,19 +36,19 @@ const saveFetch = (character) => {
         }
     });
 
-    if (response.ok) {
+    if (response) {
         // reload page
-        document.location.reload();
+        refreshPage();
     } else {
         console.log("Something went wrong!");
     }
 }
 
-// const refreshPage = (event) => {
-//     setInterval(function(){
-//         document.location.reload();
-//     }, 200);
-// }
+const refreshPage = () => {
+    setInterval(function(){
+        document.location.reload();
+    }, 500);
+}
 
 // event listener
 saveCharBtn.addEventListener("click", saveBtnHandler);
